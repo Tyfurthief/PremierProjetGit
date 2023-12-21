@@ -16,5 +16,16 @@ Gérer l'historique des versions.
 - Copie du serveur vers le local : `git clone`
  
 ## Notion de branche de travail
-- Changer de branche : `git checkout -b`
+- Créer une branche : `git checkout -b <nom>`
+- Changer de branche : `git checkout <nom>`
 - Afficher les branches existantes : `git branch` ou `git status`
+
+## Nettoyer l'espace de travail
+- Supprimer les changements depuis le dernier commit : `git restore`
+- Supprimer les fichiers inconnus de Git (définitivement) : `git clean`
+- Supprimer les fichiers inconnus de Git (retrouvables) : `git stash`
+
+## Réécrire l'historique
+- Changer/modifier le dernier commit : `--amend`
+- Retourner à un commit précédent : `git reset <id>`
+
